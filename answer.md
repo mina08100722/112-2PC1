@@ -1,12 +1,12 @@
 # 第1次練習-練習-PC1
 >
->學號：1234567
+>學號：111111117
 ><br />
->姓名：王小明
+>姓名：林郁岑
 ><br />
->作業撰寫時間：180 (mins，包含程式撰寫時間)
+>作業撰寫時間：20 mins
 ><br />
->最後撰寫文件日期：2023/09/22
+>最後撰寫文件日期：2023/03/12
 >
 
 本份文件包含以下主題：(至少需下面兩項，若是有多者可以自行新增)
@@ -15,42 +15,19 @@
 
 ## 說明程式與內容
 
-開始寫說明，該說明需說明想法，
-並於之後再對上述想法的每一部分將程式進一步進行展現，
-若需引用程式區則使用下面方法，
-若為.cs檔內程式除了於敘述中需註明檔案名稱外，
-還需使用語法` ```語言種類 程式碼 ``` `，其中語言種類若是要用python則使用py，java則使用java，C/C++則使用cpp，
-下段程式碼為語言種類選擇csharp使用後結果：
+git branch：新增分支
 
-```csharp
-public void mt_getResult(){
-    ...
-}
-```
+git checkout 分支名稱：切換分支
 
-若要於內文中標示部分網頁檔，則使用以下標籤` ```html 程式碼 ``` `，
-下段程式碼則為使用後結果：
+git merge 分支名稱：合併分支
 
-```html
-<%@ Page Language="C#" AutoEventWireup="true" ...>
+git add：添加檔案
 
-<!DOCTYPE html>
+git commit：讓暫存區的檔案提交到儲存庫
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-<meta http-equiv="Content-Type" ...>
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
-        </div>
-    </form>
-</body>
-</html>
-```
-更多markdown方法可參閱[https://ithelp.ithome.com.tw/articles/10203758](https://ithelp.ithome.com.tw/articles/10203758)
+git push：將檔案推上去到github
+
 
 ## 個人認為完成作業須具備觀念
 
-開始寫說明，需要說明本次作業個人覺得需學會那些觀念，亦可作為學習筆記使用 (需寫成文章，需最少50字，並且文內不得有你、我、他三種文字)
+這次作業所用到的程式碼是用Git版本控制系統來進行作業的基本操作，包括新增分支、切換分支、合併分支、添加檔案、提交檔案到儲存庫、以及將檔案推送到GitHub等步驟。
